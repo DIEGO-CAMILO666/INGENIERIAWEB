@@ -15,7 +15,7 @@ app.use(cors({
 }))
 
 const cliente = require('./routes/cliente')
-const tipoProyecto = require('./routes/tipoproyecto')
+const tipoProyecto = require('./routes/tipoProyecto')
 const universidad = require('./routes/universidad')
 const etapa = require('./routes/etapa')
 
